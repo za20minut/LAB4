@@ -62,5 +62,11 @@ namespace LAB4
             pictureBox1.Image = bmp;
             pictureBox1.Refresh();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            pictureBox1.Image.RotateFlip(RotateFlipType.RotateNoneFlipX);
+            pictureBox1.Refresh();
+        }
     }
 }
